@@ -1,4 +1,4 @@
-const app = "I don't do much."
+const kitten = [""]
 
 function destructivelyAppendKitten(name) {
   return kitten.push(name)
