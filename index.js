@@ -1,7 +1,7 @@
 const kitten = ["Milo", "Otis", "Garfield"];
 
 function destructivelyAppendKitten(name) {
-  return kitten.push(name);
+  kitten.push(name);
+  return destructivelyAppendKitten("Ralph");
 }
-destructivelyAppendKitten("Ralph");
 
