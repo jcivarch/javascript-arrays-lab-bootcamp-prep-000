@@ -1,4 +1,4 @@
-const kitten = ["Milo", "Otis", "Garfield"];
+var kitten = ["Milo", "Otis", "Garfield"];
 
 function destructivelyAppendKitten(name) {
   return kitten.push(name);
